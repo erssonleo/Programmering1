@@ -15,6 +15,9 @@ public class Employee {
 	public int getID() {
 		
 	}
+	public String getFirstName() {
+		
+	}
 	
-
+	
 }
