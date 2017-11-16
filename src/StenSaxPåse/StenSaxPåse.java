@@ -36,18 +36,12 @@ public class StenSaxPåse {
 			System.out.println("Computer - Paper");
 		}
 		 
-		
-			System.out.println("You Won!);
-		}else
-
-	{
-			System.out.println("You Lost!);
+		if (stoneSiccorPaper == 0 && usersPick.equals("siccor")) {
+			System.out.println("You Loss!");
+		} else if (stoneSiccorPaper == 1 && usersPick.equals("Siccor")) {
+			System.out.println("Draw!");
+			
 		}
-
-	System.out.println("You Won!);}else{System.out.println("You Lost!);}
-
-	System.out.println("You Won!);}else{System.out.println("You Lost!);
-}
 
 }
 
